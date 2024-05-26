@@ -1,0 +1,36 @@
+.nav {
+    border: 1px black;
+    background-color: rgb(22, 3, 3);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 40px;
+
+}
+
+.link {
+    border: 1px black;
+    background-color: rgb(34, 8, 8);
+    height: 23px;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+}
+
+.link a {
+    color: white;
+    text-decoration: none;
+}
+
+@media (max-width:768px) {
+    .nav {
+        flex-direction: column;
+        height: 25px;
+    }
+    
+    .link {
+        background-color: gray;
+        height: 25px;
+        width: 100%;
+    }
+}

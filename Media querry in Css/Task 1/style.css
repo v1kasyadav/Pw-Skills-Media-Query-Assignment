@@ -1,0 +1,15 @@
+.header {
+    height: 200px;
+    background-color: aliceblue;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 80px;
+}
+
+@media (max-width:600px) {
+    .header {
+        background-color: blue;
+    }
+}
